@@ -1,0 +1,53 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.comments-list {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.display-5 {
+  font-weight: 600;
+}
+
+.border-start {
+  border-left-width: 3px !important;
+}
+
+.btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.spinner-border-sm {
+  width: 1rem;
+  height: 1rem;
+}
+
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+
+  .display-5 {
+    font-size: 1.5rem;
+  }
+}
